@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 *,
 *::before,
 *::after {
@@ -5,4 +7,50 @@
   padding: 0;
   margin: 0;
   text-size-adjust: none;
+}
+
+
+/* Font Color/Size, Page Elements' Color is here */
+:root {
+  --font-color1: #494949;
+  --font-color2: #737373;
+  --font-color3: #FFFFFF;
+  --font-color4: #9F9F9F;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  padding: 0 16px;
+  max-width: 1270px;
+  margin: auto;
+}
+
+.nav {
+  height: 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav > * {
+  display: flex;
+  align-items: center;
+}
+
+.nav__left {
+  width: 98px;
+  justify-content: space-between;
+}
+
+.brand-name {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #494949;
 }
